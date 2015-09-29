@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Turistico</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0"/>
+	 <!-- Loading Bootstrap -->
+    <link href="bower_components/flat-ui/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="bower_components/flat-ui/dist/css/flat-ui.min.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+  <div class="loginCont">
+  <div class="login-icon">
+    <img src="bower_components/flat-ui/img/icons/png/Compas.png" alt="Bienvenido a turistico" />
+    <h4>Bienvenido a<small>Turistico</small></h4>
+  </div>
+	<div class="login-form">
+     <form id="login_f" enctype="multipart/form-data" method="post" action="" role="form">
+        <div class="form-group">
+          <input type="text" class="form-control login-field" value="" placeholder="nombre usuario" id="login-name"  autofocus required/>
+          <label class="login-field-icon fui-user" for="login-name"></label>
+        </div>
+
+        <div class="form-group">
+          <input type="password" class="form-control login-field" value="" placeholder="contraseña" id="login-pass" required/>
+          <label class="login-field-icon fui-lock" for="login-pass"></label>
+        </div>
+      
+        <a class="btn btn-primary btn-lg btn-block" type="submit" href="#">Log in</a>
+        <a class="login-link" href="#">Lost your password?</a>
+        </form>
+    </div>
+  </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/flat-ui/dist/js/vendor/video.js"></script>
+    <script src="bower_components/flat-ui/dist/js/flat-ui.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJHUoyu5n8noQXdqQc41z-2P2SxTGea6Q&callback=initMap"></script>
+</body>
+</html>
